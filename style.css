@@ -1,67 +1,59 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-  
 body{
-    background-color:white;
+    background-color: #fff;
     font-family: "Sedan SC", serif;
     font-weight: 400;
-    font-style: normal; 
 }
 .title{
     text-align: center;
+    margin-top: 1px;
+    font-weight: bold;
+    background-color: rgb(75, 228, 248);
     padding: 20px;
-    background-color:rgb(46, 198, 236);
-    color: rgb(243, 252, 252);
-   
-   
-   
-   
+    color: white;
+    position: sticky;
+}
+.title2{
+    margin-left: 3px;
+    margin-top: 20px;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .container{
-   
-    padding: 20px;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: flex;
     flex-basis: 20%;
-    margin: 10px;
+    justify-content: space-around;
     scrollbar-width: 20px;
     scroll-behavior: smooth;
-
 }
-.hello,.hello1,.hello2,.hello3{
-    border: solid black 2px;
-    padding: 10px; 
+.hello{
+    border: 2px solid black;
     justify-content: space-around;
-   
-   
+    padding: 10px;
+    margin-top: 15px;
 }
-.hello4{
-    border: solid black 2px;
-   margin-top: 15px;
-  
- 
-}
-.hello,.hello1,.hello2,.hello3,.hello4:hover{
-    scroll-behavior: smooth;
-    scrollbar-color: rgb(147, 255, 188);
+.hello1{
+    border: 2px solid black;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 8px;
 }
 .contact{
-    margin-top: 10px;
-    margin-left: 80px;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
-.number{
-    margin-right: 70px;
+a{
+    text-decoration: none;
+    color: rgb(247, 125, 26);
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: bold;
 }
-.cakename{
-    margin-left: 50px;
-    margin-top: 15px;
-    color: rgb(168, 34, 10);
-   
-}
-.achu{
-    margin-top: 10px;
-}
-
