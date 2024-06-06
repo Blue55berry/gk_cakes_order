@@ -12,9 +12,11 @@ body{
     text-align: center;
     margin-top: 1px;
     font-weight: bold;
-    background-color: rgb(75, 228, 248);
-    padding: 20px;
+    background-color: rgb(7, 6, 6) ;
+    padding: 25px;
     color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
     position: sticky;
 }
 .title2{
@@ -23,6 +25,7 @@ body{
     color: red;
     font-family: sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 .container{
     flex-wrap: wrap;
@@ -56,4 +59,12 @@ a{
     font-family: sans-serif;
     cursor: pointer;
     font-weight: bold;
+}
+hr{
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.details{
+    margin-top: 20px;
+    margin-bottom: 8px;    
 }
